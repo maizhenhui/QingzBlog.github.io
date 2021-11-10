@@ -1,20 +1,20 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://qingz.top</id>
+    <id>http://maizhenhui.github.io</id>
     <title>Qingz的藏书阁</title>
-    <link href="http://qingz.top" />
+    <link href="http://maizhenhui.github.io" />
     <updated>2021-11-09T15:03:02.000Z</updated>
     <entry>
-        <id>http://qingz.top/2021/11/09/newpapername/</id>
+        <id>http://maizhenhui.github.io/2021/11/09/newpapername/</id>
         <title>newpapername</title>
-        <link rel="alternate" href="http://qingz.top/2021/11/09/newpapername/"/>
+        <link rel="alternate" href="http://maizhenhui.github.io/2021/11/09/newpapername/"/>
         <content type="html"></content>
         <updated>2021-11-09T15:03:02.000Z</updated>
     </entry>
     <entry>
-        <id>http://qingz.top/2021/11/09/hello-world/</id>
+        <id>http://maizhenhui.github.io/2021/11/09/hello-world/</id>
         <title>Hello World</title>
-        <link rel="alternate" href="http://qingz.top/2021/11/09/hello-world/"/>
+        <link rel="alternate" href="http://maizhenhui.github.io/2021/11/09/hello-world/"/>
         <content type="html">&lt;p&gt;Welcome to &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&#34;https://hexo.io/docs/&#34;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&#34;https://hexo.io/docs/troubleshooting.html&#34;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&#34;https://github.com/hexojs/hexo/issues&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
 &lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
