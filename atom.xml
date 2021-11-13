@@ -10,9 +10,9 @@
     </author>
     <updated>2021-11-09T15:03:02.000Z</updated>
     <entry>
-        <id>http://qingz.top/2021/11/09/java/jvm/%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%99%A8/</id>
+        <id>http://qingz.top/java/JVM/java/jvm/%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%99%A8</id>
         <title>类加载介绍</title>
-        <link rel="alternate" href="http://qingz.top/2021/11/09/java/jvm/%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%99%A8/"/>
+        <link rel="alternate" href="http://qingz.top/java/JVM/java/jvm/%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%99%A8"/>
         <content type="html">&lt;h1 id=&#34;类加载过程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#类加载过程&#34;&gt;#&lt;/a&gt; 类加载过程&lt;/h1&gt;
 &lt;h2 id=&#34;123&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#123&#34;&gt;#&lt;/a&gt; 123&lt;/h2&gt;
 &lt;p&gt;在将一个  &lt;code&gt;.java&lt;/code&gt;  编译成  &lt;code&gt;.class&lt;/code&gt;  并加载到  &lt;code&gt;JVM&lt;/code&gt;  时，会经历如下过程：&lt;/p&gt;
@@ -64,9 +64,9 @@
         <updated>2021-11-09T15:03:02.000Z</updated>
     </entry>
     <entry>
-        <id>http://qingz.top/2021/11/09/hello-world/</id>
+        <id>http://qingz.top/uncategorized/hello-world</id>
         <title>Hello World</title>
-        <link rel="alternate" href="http://qingz.top/2021/11/09/hello-world/"/>
+        <link rel="alternate" href="http://qingz.top/uncategorized/hello-world"/>
         <content type="html">&lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
 &lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
