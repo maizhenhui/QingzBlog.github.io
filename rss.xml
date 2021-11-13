@@ -13,9 +13,9 @@
         <pubDate>Sat, 13 Nov 2021 21:43:54 +0800</pubDate>
         <lastBuildDate>Sat, 13 Nov 2021 21:43:54 +0800</lastBuildDate>
         <item>
-            <guid isPermalink="true">http://qingz.top/123/hello-world</guid>
+            <guid isPermalink="true">http://qingz.top/123/hello-world/</guid>
             <title>Hello World</title>
-            <link>http://qingz.top/123/hello-world</link>
+            <link>http://qingz.top/123/hello-world/</link>
             <category term="123" scheme="http://qingz.top/categories/123/" />
             <pubDate>Sat, 13 Nov 2021 21:43:54 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
@@ -31,9 +31,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://qingz.top/java/jvm/classloader</guid>
+            <guid isPermalink="true">http://qingz.top/java/jvm/classloader/</guid>
             <title>类加载介绍</title>
-            <link>http://qingz.top/java/jvm/classloader</link>
+            <link>http://qingz.top/java/jvm/classloader/</link>
             <category term="Java" scheme="http://qingz.top/categories/java/" />
             <category term="jvm" scheme="http://qingz.top/categories/java/jvm/" />
             <category term="类加载" scheme="http://qingz.top/tags/%E7%B1%BB%E5%8A%A0%E8%BD%BD/" />
