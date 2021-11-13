@@ -8,7 +8,104 @@
     <author>
       <name>Qingz</name>
     </author>
-    <updated>2021-11-09T15:03:02.000Z</updated>
+    <updated>2021-11-14T15:03:02.000Z</updated>
+    <entry>
+        <id>http://qingz.top/game-dev/unity/%E5%B7%A5%E5%85%B7%E4%B8%8A%E6%89%8B/</id>
+        <title>工具上手</title>
+        <link rel="alternate" href="http://qingz.top/game-dev/unity/%E5%B7%A5%E5%85%B7%E4%B8%8A%E6%89%8B/"/>
+        <content type="html">&lt;h1 id=&#34;工具上手&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#工具上手&#34;&gt;#&lt;/a&gt; 工具上手&lt;/h1&gt;
+&lt;h2 id=&#34;介绍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#介绍&#34;&gt;#&lt;/a&gt; 介绍&lt;/h2&gt;
+&lt;p&gt;要向进行  &lt;code&gt;Unity3D&lt;/code&gt;  的游戏开发，会接触到如下的 &lt;strong&gt;技术栈&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;C#&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Lua&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Unity3D&lt;/code&gt;  工具&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;上述只是暂时能够列举的技术栈，后续会继续更新。我们要安装 游戏开发时所需要的  &lt;code&gt;IDE&lt;/code&gt; 。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;unity3d-安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#unity3d-安装&#34;&gt;#&lt;/a&gt; Unity3D 安装&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Unity3D&lt;/code&gt;  的版本非常多，不易管理，一般我们会选择首先安装  &lt;code&gt;Unity Hub &lt;/code&gt; 进行 &lt;strong&gt; &lt;code&gt;Unity&lt;/code&gt;  版本管理&lt;/strong&gt; 与 &lt;strong&gt;项目搭建&lt;/strong&gt;。&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9wdWJsaWMtY2RuLmNsb3VkLnVuaXR5M2QuY29tL2h1Yi9wcm9kL1VuaXR5SHViU2V0dXAuZXhl&#34;&gt;点击下载&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;打开  &lt;code&gt;Unity Hub&lt;/code&gt;  后，需要进行账号的登录注册。这一步我们自己操作就好。&lt;/p&gt;
+&lt;p&gt;登录之后，我们进入界面的如下位置：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://tva2.sinaimg.cn/large/8df70646ly8gwe0h663nej20ub0lhmy2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;进入安装界面，我们随意选择一个  &lt;code&gt;Unity3D&lt;/code&gt;  版本进行安装。然后下一步，把 &lt;strong&gt;所有的勾选安装&lt;/strong&gt; 都去掉。然后下一步即可进行安装。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;rider&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#rider&#34;&gt;#&lt;/a&gt; Rider&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Rider&lt;/code&gt;  是一款由  &lt;code&gt;Jetbrain&lt;/code&gt;  公司开发的  &lt;code&gt;C#&lt;/code&gt; 开发工具。我们主要用它进行  &lt;code&gt;C#&lt;/code&gt;  程序的开发。&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuamV0YnJhaW5zLmNvbS9yaWRlci9kb3dubG9hZC9vdGhlci5odG1s&#34;&gt;点击下载&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;下载安装后，我们进行破解。查看 &lt;strong&gt;破解教程&lt;/strong&gt; 即可，在  &lt;code&gt;Xmind&lt;/code&gt;  中有。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;破解完毕后&lt;/strong&gt;，我们前往  &lt;code&gt;File-&amp;gt;Settings&lt;/code&gt;  关闭以下两个功能（勾选去除）：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Build,Execution,Deployment-&amp;gt;Debugger-&amp;gt;Enable external source debug&lt;/code&gt; ：勾选去除&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Tools-&amp;gt;External Symbols-&amp;gt;Allow downloading symbols from remote locations&lt;/code&gt; ：勾选去除&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;具体图文可参考：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;项目搭建&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#项目搭建&#34;&gt;#&lt;/a&gt; 项目搭建&lt;/h2&gt;
+&lt;p&gt;我们接下来使用   &lt;code&gt;Unity Hub &lt;/code&gt;  搭建一个  &lt;code&gt;3D&lt;/code&gt;  游戏项目，点击 &lt;strong&gt;项目 -&amp;gt; 新项目&lt;/strong&gt;，有以下常见的 &lt;strong&gt;项目搭建类型&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://tva1.sinaimg.cn/large/8df70646ly8gwe0hxi1o9j20ui0nztcb.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;我们这里选择  &lt;code&gt;URP&lt;/code&gt; ，项目相关设置自己填，然后我们打开项目，进入到  &lt;code&gt;Unity&lt;/code&gt;  界面：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://tva2.sinaimg.cn/large/8df70646ly8gwe0ib61wlj21iq0u0jv1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;这时候，我们在左上角的  &lt;code&gt;File-&amp;gt;New Scene&lt;/code&gt;  新建一个 &lt;strong&gt;场景&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://tva3.sinaimg.cn/large/8df70646ly8gwe0iv4cevj20uo0miwi5.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;到此，项目的搭建就差不多在这里结束。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;unity3d配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#unity3d配置&#34;&gt;#&lt;/a&gt; Unity3D 配置&lt;/h2&gt;
+&lt;h3 id=&#34;布局配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#布局配置&#34;&gt;#&lt;/a&gt; 布局配置&lt;/h3&gt;
+&lt;p&gt;一开始 &lt;code&gt;Unity3D&lt;/code&gt;  的工具布局并非如此，我们要调整一些地方：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://tva2.sinaimg.cn/large/8df70646ly8gwe0jccfmaj20ey09vdgv.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;然后，我们对着  &lt;code&gt;Project&lt;/code&gt;  窗的下面位置选择：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://tva4.sinaimg.cn/large/8df70646ly8gwe0jlckzxj20ek0a1my2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;我们接着呼出 控制台：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://tva2.sinaimg.cn/large/8df70646ly8gwe0ju9lkgj20el0g8ta8.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;其他布局就自己调整&lt;/p&gt;
+&lt;h3 id=&#34;ide调整&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ide调整&#34;&gt;#&lt;/a&gt; IDE 调整&lt;/h3&gt;
+&lt;p&gt;我们点击  &lt;code&gt;Edit-Preferences&lt;/code&gt;  调整 &lt;code&gt;IDE&lt;/code&gt; ：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://tva2.sinaimg.cn/large/8df70646ly8gwe0k4ywvjj20qt0gpmyp.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;在  &lt;code&gt;External Script Editor&lt;/code&gt;  选择  &lt;code&gt;Rider&lt;/code&gt;  即可。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;hello-world&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#hello-world&#34;&gt;#&lt;/a&gt; Hello World&lt;/h2&gt;
+&lt;p&gt;我们接下来在  &lt;code&gt;Hierarchy&lt;/code&gt;  窗（在当前场景）创建一个  &lt;code&gt;Cube&lt;/code&gt; （正方体）：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://tva1.sinaimg.cn/large/8df70646ly8gwe0kg59haj20bb0edq3k.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;创建后，我们能看到  &lt;code&gt;Cube&lt;/code&gt;  的一些 &lt;strong&gt;组件信息&lt;/strong&gt;（ &lt;code&gt;Inspector&lt;/code&gt;  窗）：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://tva3.sinaimg.cn/large/8df70646ly8gwe0kov16lj20rj0oh0uv.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;基本上， &lt;code&gt;Cube&lt;/code&gt;  涵盖了一个 &lt;strong&gt;游戏实体&lt;/strong&gt; 中最为主要的几个 &lt;strong&gt;组件&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Transform&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Mesh Filter&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Mesh Renderer&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Box Collider&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这些我们不详细将，我们主要是来编写  &lt;code&gt;Hello World&lt;/code&gt;  的。我们来对着这个实体添加一个 &lt;strong&gt;行为脚本&lt;/strong&gt;（ &lt;code&gt;Behaviour Script&lt;/code&gt; ）&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://tva1.sinaimg.cn/large/8df70646ly8gwe0leufynj20bv06bq38.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;新建以后，我们双击这个脚本进入  &lt;code&gt;Rider&lt;/code&gt; ：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://tva2.sinaimg.cn/large/8df70646ly8gwe0kzes3uj20x90fwq3y.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Start&lt;/code&gt;  与  &lt;code&gt;Update&lt;/code&gt;  是关于当前  &lt;code&gt;Cube&lt;/code&gt;  的 &lt;strong&gt;生命周期回调&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Start&lt;/code&gt; ：在 &lt;strong&gt; &lt;code&gt;Cube&lt;/code&gt;  出现的那一刻的下一帧&lt;/strong&gt; 被调用。有且仅 &lt;strong&gt;执行一次&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Update&lt;/code&gt; ：在 &lt;strong&gt; &lt;code&gt;Cube&lt;/code&gt;  出现的那一刻的下一帧&lt;/strong&gt; 循环调用。调用的频率根据 &lt;strong&gt;客户端的 &lt;code&gt;FPS&lt;/code&gt; &lt;/strong&gt; 决定。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;关于 &lt;strong&gt;生命周期&lt;/strong&gt; 的其他回调，我们可以看这个图：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://tva4.sinaimg.cn/large/8df70646ly8gwe0lpka0dj20ss09uq58.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;我们的  &lt;code&gt;Hello World&lt;/code&gt;  可以用另一个 &lt;strong&gt;生命周期&lt;/strong&gt; 函数： &lt;code&gt;OnEnabled&lt;/code&gt;  去写。我们重写  &lt;code&gt;MonoBehaviour&lt;/code&gt;  的  &lt;code&gt;OnEnabled&lt;/code&gt;  的方法：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-c#&#34;&gt;private void OnEnable()
+&amp;#123;
+    Debug.Log(&amp;quot;Hello World&amp;quot;);
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;之后我们保存，然后回到  &lt;code&gt;Unity3D&lt;/code&gt;  的界面，点击上面的 &lt;strong&gt;三角形&lt;/strong&gt;（ &lt;code&gt;Play&lt;/code&gt; ）开始游戏，进行一下操作：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://tva2.sinaimg.cn/large/8df70646ly8gwe0lt8gt6j21iq0u0n2b.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;不难发现，当我们把 &lt;strong&gt;勾选&lt;/strong&gt; 勾起来后，发现  &lt;code&gt;Console&lt;/code&gt;  输出了  &lt;code&gt;Hello World&lt;/code&gt; 。&lt;/p&gt;
+</content>
+        <category term="游戏开发" scheme="http://qingz.top/categories/game-dev/" />
+        <category term="Unity" scheme="http://qingz.top/categories/game-dev/unity/" />
+        <category term="游戏开发" scheme="http://qingz.top/tags/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/" />
+        <category term="Unity" scheme="http://qingz.top/tags/Unity/" />
+        <category term="Rider" scheme="http://qingz.top/tags/Rider/" />
+        <updated>2021-11-14T15:03:02.000Z</updated>
+    </entry>
     <entry>
         <id>http://qingz.top/java/jvm/classloader/</id>
         <title>类加载介绍</title>
@@ -106,100 +203,6 @@
         <category term="Java" scheme="http://qingz.top/categories/java/" />
         <category term="jvm" scheme="http://qingz.top/categories/java/jvm/" />
         <category term="类加载" scheme="http://qingz.top/tags/%E7%B1%BB%E5%8A%A0%E8%BD%BD/" />
-        <updated>2021-11-09T15:03:02.000Z</updated>
-    </entry>
-    <entry>
-        <id>http://qingz.top/game-dev/unity/%E5%B7%A5%E5%85%B7%E4%B8%8A%E6%89%8B/</id>
-        <title>工具上手</title>
-        <link rel="alternate" href="http://qingz.top/game-dev/unity/%E5%B7%A5%E5%85%B7%E4%B8%8A%E6%89%8B/"/>
-        <content type="html">&lt;h1 id=&#34;工具上手&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#工具上手&#34;&gt;#&lt;/a&gt; 工具上手&lt;/h1&gt;
-&lt;h2 id=&#34;介绍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#介绍&#34;&gt;#&lt;/a&gt; 介绍&lt;/h2&gt;
-&lt;p&gt;要向进行  &lt;code&gt;Unity3D&lt;/code&gt;  的游戏开发，会接触到如下的 &lt;strong&gt;技术栈&lt;/strong&gt;：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;C#&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Lua&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Unity3D&lt;/code&gt;  工具&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;上述只是暂时能够列举的技术栈，后续会继续更新。我们要安装 游戏开发时所需要的  &lt;code&gt;IDE&lt;/code&gt; 。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2 id=&#34;unity3d-安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#unity3d-安装&#34;&gt;#&lt;/a&gt; Unity3D 安装&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;Unity3D&lt;/code&gt;  的版本非常多，不易管理，一般我们会选择首先安装  &lt;code&gt;Unity Hub &lt;/code&gt; 进行 &lt;strong&gt; &lt;code&gt;Unity&lt;/code&gt;  版本管理&lt;/strong&gt; 与 &lt;strong&gt;项目搭建&lt;/strong&gt;。下载地址：&lt;/p&gt;
-&lt;p&gt;打开  &lt;code&gt;Unity Hub&lt;/code&gt;  后，需要进行账号的登录注册。这一步我们自己操作就好。&lt;/p&gt;
-&lt;p&gt;登录之后，我们进入界面的如下位置：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://tva2.sinaimg.cn/large/8df70646ly8gwe0h663nej20ub0lhmy2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;进入安装界面，我们随意选择一个  &lt;code&gt;Unity3D&lt;/code&gt;  版本进行安装。然后下一步，把 &lt;strong&gt;所有的勾选安装&lt;/strong&gt; 都去掉。然后下一步即可进行安装。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2 id=&#34;rider&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#rider&#34;&gt;#&lt;/a&gt; Rider&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;Rider&lt;/code&gt;  是一款由  &lt;code&gt;Jetbrain&lt;/code&gt;  公司开发的  &lt;code&gt;C#&lt;/code&gt; 开发工具。我们主要用它进行  &lt;code&gt;C#&lt;/code&gt;  程序的开发。下载地址：&lt;/p&gt;
-&lt;p&gt;下载安装后，我们进行破解。查看 &lt;strong&gt;破解教程&lt;/strong&gt; 即可，在  &lt;code&gt;Xmind&lt;/code&gt;  中有。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;破解完毕后&lt;/strong&gt;，我们前往  &lt;code&gt;File-&amp;gt;Settings&lt;/code&gt;  关闭以下两个功能（勾选去除）：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Build,Execution,Deployment-&amp;gt;Debugger-&amp;gt;Enable external source debug&lt;/code&gt; ：勾选去除&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Tools-&amp;gt;External Symbols-&amp;gt;Allow downloading symbols from remote locations&lt;/code&gt; ：勾选去除&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;具体图文可参考：&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2 id=&#34;项目搭建&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#项目搭建&#34;&gt;#&lt;/a&gt; 项目搭建&lt;/h2&gt;
-&lt;p&gt;我们接下来使用   &lt;code&gt;Unity Hub &lt;/code&gt;  搭建一个  &lt;code&gt;3D&lt;/code&gt;  游戏项目，点击 &lt;strong&gt;项目 -&amp;gt; 新项目&lt;/strong&gt;，有以下常见的 &lt;strong&gt;项目搭建类型&lt;/strong&gt;：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://tva1.sinaimg.cn/large/8df70646ly8gwe0hxi1o9j20ui0nztcb.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;我们这里选择  &lt;code&gt;URP&lt;/code&gt; ，项目相关设置自己填，然后我们打开项目，进入到  &lt;code&gt;Unity&lt;/code&gt;  界面：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://tva2.sinaimg.cn/large/8df70646ly8gwe0ib61wlj21iq0u0jv1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;这时候，我们在左上角的  &lt;code&gt;File-&amp;gt;New Scene&lt;/code&gt;  新建一个 &lt;strong&gt;场景&lt;/strong&gt;：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://tva3.sinaimg.cn/large/8df70646ly8gwe0iv4cevj20uo0miwi5.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;到此，项目的搭建就差不多在这里结束。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2 id=&#34;unity3d配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#unity3d配置&#34;&gt;#&lt;/a&gt; Unity3D 配置&lt;/h2&gt;
-&lt;h3 id=&#34;布局配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#布局配置&#34;&gt;#&lt;/a&gt; 布局配置&lt;/h3&gt;
-&lt;p&gt;一开始 &lt;code&gt;Unity3D&lt;/code&gt;  的工具布局并非如此，我们要调整一些地方：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://tva2.sinaimg.cn/large/8df70646ly8gwe0jccfmaj20ey09vdgv.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;然后，我们对着  &lt;code&gt;Project&lt;/code&gt;  窗的下面位置选择：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://tva4.sinaimg.cn/large/8df70646ly8gwe0jlckzxj20ek0a1my2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;我们接着呼出 控制台：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://tva2.sinaimg.cn/large/8df70646ly8gwe0ju9lkgj20el0g8ta8.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;其他布局就自己调整&lt;/p&gt;
-&lt;h3 id=&#34;ide调整&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ide调整&#34;&gt;#&lt;/a&gt; IDE 调整&lt;/h3&gt;
-&lt;p&gt;我们点击  &lt;code&gt;Edit-Preferences&lt;/code&gt;  调整 &lt;code&gt;IDE&lt;/code&gt; ：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://tva2.sinaimg.cn/large/8df70646ly8gwe0k4ywvjj20qt0gpmyp.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;在  &lt;code&gt;External Script Editor&lt;/code&gt;  选择  &lt;code&gt;Rider&lt;/code&gt;  即可。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2 id=&#34;hello-world&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#hello-world&#34;&gt;#&lt;/a&gt; Hello World&lt;/h2&gt;
-&lt;p&gt;我们接下来在  &lt;code&gt;Hierarchy&lt;/code&gt;  窗（在当前场景）创建一个  &lt;code&gt;Cube&lt;/code&gt; （正方体）：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://tva1.sinaimg.cn/large/8df70646ly8gwe0kg59haj20bb0edq3k.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;创建后，我们能看到  &lt;code&gt;Cube&lt;/code&gt;  的一些 &lt;strong&gt;组件信息&lt;/strong&gt;（ &lt;code&gt;Inspector&lt;/code&gt;  窗）：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://tva3.sinaimg.cn/large/8df70646ly8gwe0kov16lj20rj0oh0uv.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;基本上， &lt;code&gt;Cube&lt;/code&gt;  涵盖了一个 &lt;strong&gt;游戏实体&lt;/strong&gt; 中最为主要的几个 &lt;strong&gt;组件&lt;/strong&gt;：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Transform&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Mesh Filter&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Mesh Renderer&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Box Collider&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;这些我们不详细将，我们主要是来编写  &lt;code&gt;Hello World&lt;/code&gt;  的。我们来对着这个实体添加一个 &lt;strong&gt;行为脚本&lt;/strong&gt;（ &lt;code&gt;Behaviour Script&lt;/code&gt; ）&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://tva1.sinaimg.cn/large/8df70646ly8gwe0leufynj20bv06bq38.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;新建以后，我们双击这个脚本进入  &lt;code&gt;Rider&lt;/code&gt; ：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://tva2.sinaimg.cn/large/8df70646ly8gwe0kzes3uj20x90fwq3y.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Start&lt;/code&gt;  与  &lt;code&gt;Update&lt;/code&gt;  是关于当前  &lt;code&gt;Cube&lt;/code&gt;  的 &lt;strong&gt;生命周期回调&lt;/strong&gt;：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Start&lt;/code&gt; ：在 &lt;strong&gt; &lt;code&gt;Cube&lt;/code&gt;  出现的那一刻的下一帧&lt;/strong&gt; 被调用。有且仅 &lt;strong&gt;执行一次&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Update&lt;/code&gt; ：在 &lt;strong&gt; &lt;code&gt;Cube&lt;/code&gt;  出现的那一刻的下一帧&lt;/strong&gt; 循环调用。调用的频率根据 &lt;strong&gt;客户端的 &lt;code&gt;FPS&lt;/code&gt; &lt;/strong&gt; 决定。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;关于 &lt;strong&gt;生命周期&lt;/strong&gt; 的其他回调，我们可以看这个图：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://tva4.sinaimg.cn/large/8df70646ly8gwe0lpka0dj20ss09uq58.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;我们的  &lt;code&gt;Hello World&lt;/code&gt;  可以用另一个 &lt;strong&gt;生命周期&lt;/strong&gt; 函数： &lt;code&gt;OnEnabled&lt;/code&gt;  去写。我们重写  &lt;code&gt;MonoBehaviour&lt;/code&gt;  的  &lt;code&gt;OnEnabled&lt;/code&gt;  的方法：&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-c#&#34;&gt;private void OnEnable()
-&amp;#123;
-    Debug.Log(&amp;quot;Hello World&amp;quot;);
-&amp;#125;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;之后我们保存，然后回到  &lt;code&gt;Unity3D&lt;/code&gt;  的界面，点击上面的 &lt;strong&gt;三角形&lt;/strong&gt;（ &lt;code&gt;Play&lt;/code&gt; ）开始游戏，进行一下操作：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://tva2.sinaimg.cn/large/8df70646ly8gwe0lt8gt6j21iq0u0n2b.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;不难发现，当我们把 &lt;strong&gt;勾选&lt;/strong&gt; 勾起来后，发现  &lt;code&gt;Console&lt;/code&gt;  输出了  &lt;code&gt;Hello World&lt;/code&gt; 。&lt;/p&gt;
-</content>
-        <category term="游戏开发" scheme="http://qingz.top/categories/game-dev/" />
-        <category term="Unity" scheme="http://qingz.top/categories/game-dev/unity/" />
-        <category term="游戏开发" scheme="http://qingz.top/tags/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/" />
-        <category term="Unity" scheme="http://qingz.top/tags/Unity/" />
-        <category term="Rider" scheme="http://qingz.top/tags/Rider/" />
         <updated>2021-11-09T15:03:02.000Z</updated>
     </entry>
 </feed>
