@@ -35,7 +35,7 @@
             <title>类加载介绍</title>
             <link>http://qingz.top/java/jvm/%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%99%A8</link>
             <category term="Java" scheme="http://qingz.top/categories/java/" />
-            <category term="JVM" scheme="http://qingz.top/categories/java/JVM/" />
+            <category term="jvm" scheme="http://qingz.top/categories/java/jvm/" />
             <category term="类加载" scheme="http://qingz.top/tags/%E7%B1%BB%E5%8A%A0%E8%BD%BD/" />
             <pubDate>Tue, 09 Nov 2021 23:03:02 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;类加载过程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#类加载过程&#34;&gt;#&lt;/a&gt; 类加载过程&lt;/h1&gt;
