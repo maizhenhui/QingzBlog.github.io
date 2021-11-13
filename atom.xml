@@ -28,9 +28,9 @@
         <updated>2021-11-13T13:43:54.385Z</updated>
     </entry>
     <entry>
-        <id>http://qingz.top/java/jvm/%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%99%A8</id>
+        <id>http://qingz.top/java/jvm/classloader</id>
         <title>类加载介绍</title>
-        <link rel="alternate" href="http://qingz.top/java/jvm/%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%99%A8"/>
+        <link rel="alternate" href="http://qingz.top/java/jvm/classloader"/>
         <content type="html">&lt;h1 id=&#34;类加载过程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#类加载过程&#34;&gt;#&lt;/a&gt; 类加载过程&lt;/h1&gt;
 &lt;h2 id=&#34;123&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#123&#34;&gt;#&lt;/a&gt; 123&lt;/h2&gt;
 &lt;p&gt;在将一个  &lt;code&gt;.java&lt;/code&gt;  编译成  &lt;code&gt;.class&lt;/code&gt;  并加载到  &lt;code&gt;JVM&lt;/code&gt;  时，会经历如下过程：&lt;/p&gt;

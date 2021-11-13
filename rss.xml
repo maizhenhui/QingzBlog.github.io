@@ -31,9 +31,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://qingz.top/java/jvm/%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%99%A8</guid>
+            <guid isPermalink="true">http://qingz.top/java/jvm/classloader</guid>
             <title>类加载介绍</title>
-            <link>http://qingz.top/java/jvm/%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%99%A8</link>
+            <link>http://qingz.top/java/jvm/classloader</link>
             <category term="Java" scheme="http://qingz.top/categories/java/" />
             <category term="jvm" scheme="http://qingz.top/categories/java/jvm/" />
             <category term="类加载" scheme="http://qingz.top/tags/%E7%B1%BB%E5%8A%A0%E8%BD%BD/" />
