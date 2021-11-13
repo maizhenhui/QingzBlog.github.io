@@ -39,9 +39,11 @@
 &lt;li&gt;&lt;code&gt;Tools-&amp;gt;External Symbols-&amp;gt;Allow downloading symbols from remote locations&lt;/code&gt; ：勾选去除&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;具体图文可参考：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;cnblogs&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9xLmNuYmxvZ3MuY29tL3EvMTMwMDc0Lw==&#34; data-background-image=&#34;https://cdn.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9xLmNuYmxvZ3MuY29tL3EvMTMwMDc0Lw==&#34;&gt;cnblogs&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;IDE调整&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2 id=&#34;项目搭建&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#项目搭建&#34;&gt;#&lt;/a&gt; 项目搭建&lt;/h2&gt;
 &lt;p&gt;我们接下来使用   &lt;code&gt;Unity Hub &lt;/code&gt;  搭建一个  &lt;code&gt;3D&lt;/code&gt;  游戏项目，点击 &lt;strong&gt;项目 -&amp;gt; 新项目&lt;/strong&gt;，有以下常见的 &lt;strong&gt;项目搭建类型&lt;/strong&gt;：&lt;/p&gt;
